@@ -5,7 +5,7 @@ function chillHop() {
         {
             name: "My Babylon",
             artist: "Andy Panda (Endspiel)",
-            audio: "https://doc-0g-88-docs.googleusercontent.com/docs/securesc/63hmvmg9meqovkbdt052b5ire4j7hea3/fsl7f46e1qrm1d0gqohrd23kc7i5m9on/1609024425000/09188101437298963203/09188101437298963203/1vB4s20w3rDcyxg-GQUrRqBGI5yKq9wNE?e=download&authuser=0",
+            audio: "https://mp3flys.ru/uploads/files/mp3/04-2020/1586882691_Endshpil_-_Moy_Babylon.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/8404541e3b694d16fd79433b142ed910f36764dd-1024x1024.jpg",
             color: ["#205950", "#2ab3bf"],
             id: uuidv4(),
