@@ -10,6 +10,9 @@ nav{
         border: 2px solid rgb(68, 68, 68);
         padding: 0.5rem;
         transition: all .3s ease;
+        svg{
+            margin-left: 5px;
+        }
         &:hover{
             background:  rgb(68, 68, 68);
             color: white;

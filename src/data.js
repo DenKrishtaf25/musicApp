@@ -12,27 +12,27 @@ function chillHop() {
             active: true
         },
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=11768",
+            name: "Minor",
+            artist: "Miyagi, Andy Panda",
+            audio: "https://mp3flys.ru/uploads/files/mp3/07-2020/1594953860_Miyagi_Andy_Panda_-_Minor.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/05/16bcbe48680098798af04f176daae3693839238d-1024x1024.jpg",
             color: ["#7D8EC1", "#CB9BC1"],
             id: uuidv4(),
             active: false
         },
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=11770",
+            name: "Tam reveli gori",
+            artist: "Miyagi, Andy Panda",
+            audio: "https://mp3flys.ru/uploads/files/mp3/07-2020/1594953047_Miyagi_Andy_Panda_-_Tam_reveli_gorii.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/04/478079cd16fca3ef62a4667dff1673e96e2b635f-1024x1024.jpg",
             color: ["#CB7471", "#6597B8"],
             id: uuidv4(),
             active: false
         },
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=9331",
+            name: "Yamakasi",
+            artist: "Miyagi, Andy Panda",
+            audio: "https://mp3flys.ru/uploads/files/mp3/07-2020/1594953009_MiyaGi_Andy_Panda_-_Yamakasi.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/11/f78c39b4bb6313ddd0354bef896c591bfb490ff8-1024x1024.jpg",
             color: ["#1A4E97", "#B5766E"],
             id: uuidv4(),
@@ -40,9 +40,9 @@ function chillHop() {
         }
         ,
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=8127",
+            name: "Psixopatiya",
+            artist: "Miyagi, Andy Panda",
+            audio: "https://mp3flys.ru/uploads/files/mp3/07-2020/1594952988_MiyaGi_Andy_Panda_-_Psixopatiya.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/43e472df5f7dfe5ad546f94b722fa3ca401eb138-1024x1024.jpg",
             color: ["#F4695F", "#DBA460"],
             id: uuidv4(),
@@ -50,9 +50,9 @@ function chillHop() {
         }
         ,
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=9923",
+            name: "Atlant",
+            artist: "Miyagi, Andy Panda",
+            audio: "https://mp3flys.ru/uploads/files/mp3/07-2020/1594934606_Miyagi_Andy_Panda_-_Atlant.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/50758f405d2aba9cd6e8c4e6cfce44e4d9893714-1024x1024.jpg",
             color: ["#205950", "#2ab3bf"],
             id: uuidv4(),
@@ -60,9 +60,9 @@ function chillHop() {
         }
         ,
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=9307",
+            name: "Brooklyn",
+            artist: "Miyagi_Andy_Panda_TumaniYO",
+            audio: "https://mp3flys.ru/uploads/files/mp3/05-2020/1588280673_Miyagi_Andy_Panda_TumaniYO_-_Brooklyn.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/9630fcab71c6dc1e9ad8140a03dcab54b8b98098-1024x1024.jpg",
             color: ["#205950", "#2ab3bf"],
             id: uuidv4(),

@@ -1,27 +1,39 @@
-.song-container{
+.song-container {
     min-height: 60vh;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    img{
-        width: 20%;
+    &__img {
+        width: 27%;
         border-radius: 50%;
+        transform: rotate(0deg);
+        // transition: all 7s ease infinite;
     }
-    h1{
+    .song-container__img.song-container__img-active {
+       animation: rotate 22s linear infinite;
+    }
+    h1 {
         padding: 3rem 1rem 1rem 1rem;
-         font-family: "Ubuntu", sans-serif;
+        font-family: "Ubuntu", sans-serif;
     }
-    h3{
+    h3 {
         font-size: 1rem;
         font-family: "Lato", sans-serif;
     }
 }
+@keyframes rotate {
+  from {
+    transform: rotate(-360deg);
+  }
+}
 
-@media screen and (max-width: 768px){
-    .song-container{
-        img{
-            width: 60%; 
+@media screen and (max-width: 768px) {
+    .song-container {
+        img {
+            width: 60%;
         }
     }
 }
+
+

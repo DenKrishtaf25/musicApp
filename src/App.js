@@ -25,6 +25,7 @@ function App() {
     animationPercentage: 0,
   });
   const [libraryStatus, setLibraryStatus] = useState(false);
+  const [rotateImg, setRotateImg] = useState(false);
   const timeUpdateHandler = (e) => {
     const current = e.target.currentTime;
     const duration = e.target.duration;
@@ -46,7 +47,10 @@ function App() {
         libraryStatus={libraryStatus}
         setLibraryStatus={setLibraryStatus}
       />
-      <Song currentSong={currentSong} />
+      <Song
+        currentSong={currentSong}
+        rotateImg={rotateImg}
+      />
       <Player
         audioRef={audioRef}
         isPlaying={isPlaying}
@@ -57,6 +61,8 @@ function App() {
         songs={songs}
         setCurrentSong={setCurrentSong}
         setSongs={setSongs}
+        setRotateImg={setRotateImg}
+        rotateImg={rotateImg}
       />
       <Library
         audioRef={audioRef}

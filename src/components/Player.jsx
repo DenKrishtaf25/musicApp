@@ -16,10 +16,12 @@ const Player = ({
     songInfo,
     songs,
     setCurrentSong,
-    setSongs
+    setSongs,
+    rotateImg,
+    setRotateImg
 }) => {
 
-    const activeLibraryHandler = (nextPrev) =>{
+    const activeLibraryHandler = (nextPrev) => {
         const newSongs = songs.map((song) => {
             if (song.id === nextPrev.id) {
                 return {
@@ -34,8 +36,9 @@ const Player = ({
             }
         });
         setSongs(newSongs);
+        console.log('hey hey');
     }
-   
+
 
 
     //Events Handlers
@@ -43,11 +46,15 @@ const Player = ({
         if (isPlaying) {
             audioRef.current.pause();
             setIsPlaying(!isPlaying);
+            setRotateImg(!rotateImg);
         } else {
             audioRef.current.play();
             setIsPlaying(!isPlaying);
+            setRotateImg(!rotateImg);
         }
     };
+
+
 
     const getTime = (time) => {
         return (
@@ -107,6 +114,7 @@ const Player = ({
                 <FontAwesomeIcon onClick={() => skipTrackHandler('skip-back')} className="skip-back" size="2x" icon={faAngleLeft} />
                 <FontAwesomeIcon
                     onClick={playSongHandler}
+                    // onClick={() => setRotateImg(!rotateImg)}
                     className="play"
                     size="2x"
                     icon={isPlaying ? faPause : faPlay} />
