@@ -80,10 +80,10 @@ function chillHop() {
         }
         ,
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
-            cover: "https://chillhop.com/wp-content/uploads/2020/07/bc9a7af2ad67de703541c2c7a91e3df74ab494c0-1024x1024.jpg",
+            name: "Billie Jean",
+            artist: "Michael Mackson",
+            audio: "https://mezzoforte.ru/s/michael_jackson/billie_jean.mp3",
+            cover: "https://i.postimg.cc/RZ1rQs49/7ny-Pq-Bqk-SP-k.jpg",
             color: ["#205950", "#2ab3bf"],
             id: uuidv4(),
             active: false
