@@ -1,29 +1,35 @@
-nav{
+nav {
     min-height: 10vh;
-    display: flex; 
+    display: flex;
     justify-content: space-around;
     align-items: center;
-    button{
+    button {
         background: transparent;
         outline: none;
         cursor: pointer;
         border: 2px solid rgb(68, 68, 68);
         padding: 0.5rem;
-        transition: all .3s ease;
-        svg{
+        transition: all 0.3s ease;
+        svg {
             margin-left: 5px;
         }
-        &:hover{
-            background:  rgb(68, 68, 68);
+        &:hover {
+            background: rgb(68, 68, 68);
             color: white;
         }
     }
 }
 
-@media screen and (max-width: 768px) {
-    nav{
-        button{
+@media screen and (max-width: 575px) {
+    nav {
+        padding: 0 32px;
+        position: relative;
+        justify-content: space-between;
+        button {
+            position: absolute;
+            right: 32px;
             z-index: 10;
+            // width: 60px;
         }
     }
 }

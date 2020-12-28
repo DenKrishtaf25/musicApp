@@ -28,10 +28,17 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 968px) {
     .song-container {
         img {
-            width: 60%;
+            width: 45%;
+        }
+    }
+}
+@media screen and (max-width: 608px) {
+    .song-container {
+        img {
+            width: 55%;
         }
     }
 }

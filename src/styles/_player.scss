@@ -59,13 +59,23 @@ input[type="range"]::-webkit-slider-thumb {
     transform: translateX(0%);
     pointer-events: none;
 }
+@media screen and (max-width: 1008px) {
+    .player {
+        &__track {
+            width: 80%;
+        }
+        &__control{
+            width: 45%;
+        }
+    }
+}
 @media screen and (max-width: 768px) {
     .player {
         &__track {
-            width: 90%;
+            width: 95%;
         }
         &__control{
-            width: 60%;
+            width: 66%;
         }
     }
 }
