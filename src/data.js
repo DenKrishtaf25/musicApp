@@ -70,20 +70,10 @@ function chillHop() {
         }
         ,
         {
-            name: "Yalavita",
-            artist: "Gorillaz",
-            audio: "https://mezzoforte.ru/s/gorillaz/clint_eastwood.mp3",
-            cover: "https://sun9-64.userapi.com/impf/HJ89Lph5ySILA4XM46r84R1AkE0H6OKn-lIoOg/WBn_TB-1kXI.jpg?size=1280x1280&quality=96&proxy=1&sign=4a31cd396464cad13237df8439be8671&type=album",
-            color: ["#205950", "#2ab3bf"],
-            id: uuidv4(),
-            active: false
-        }
-        ,
-        {
-            name: "Billie Jean",
-            artist: "Michael Mackson",
-            audio: "https://mezzoforte.ru/s/michael_jackson/billie_jean.mp3",
-            cover: "https://i.postimg.cc/RZ1rQs49/7ny-Pq-Bqk-SP-k.jpg",
+            name: "Мой Babylon",
+            artist: "Эндшпиль",
+            audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
+            cover: "https://chillhop.com/wp-content/uploads/2020/07/bc9a7af2ad67de703541c2c7a91e3df74ab494c0-1024x1024.jpg",
             color: ["#205950", "#2ab3bf"],
             id: uuidv4(),
             active: false
@@ -114,6 +104,16 @@ function chillHop() {
             artist: "Эндшпиль",
             audio: "https://mp3.chillhop.com/serve.php/?mp3=9921",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/b2e2c1fca3e00a74402969e0a9e98d4849f38aef-1024x1024.jpg",
+            color: ["#205950", "#2ab3bf"],
+            id: uuidv4(),
+            active: false
+        }
+        ,
+        {
+            name: "Yalavita",
+            artist: "Gorillaz",
+            audio: "https://mezzoforte.ru/s/gorillaz/clint_eastwood.mp3",
+            cover: "https://sun9-64.userapi.com/impf/HJ89Lph5ySILA4XM46r84R1AkE0H6OKn-lIoOg/WBn_TB-1kXI.jpg?size=1280x1280&quality=96&proxy=1&sign=4a31cd396464cad13237df8439be8671&type=album",
             color: ["#205950", "#2ab3bf"],
             id: uuidv4(),
             active: false

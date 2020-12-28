@@ -3,8 +3,8 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    h1{
-      font-family: 'BetterRattlerRough Regular';
+    h1 {
+        font-family: "BetterRattlerRough Regular";
     }
     button {
         background: transparent;
@@ -22,10 +22,18 @@ nav {
         }
     }
 }
-
+@media screen and (max-width: 1200px) {
+    nav {
+        button {
+            &:hover {
+                background: inherit;
+                color: inherit;
+            }
+        }
+    }
+}
 @media screen and (max-width: 575px) {
     nav {
-        // padding: 0 32px;
         justify-content: space-between;
         button {
             z-index: 10;

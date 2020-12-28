@@ -108,13 +108,12 @@ const Player = ({
                     />
                     <div style={trackAnim} className="animate-track"></div>
                 </div>
-                <p>{songInfo.duration ? getTime(songInfo.duration) : "жопа"}</p>
+                <p>{songInfo.duration ? getTime(songInfo.duration) : "0:00"}</p>
             </div>
             <div className="player__control">
                 <FontAwesomeIcon onClick={() => skipTrackHandler('skip-back')} className="skip-back" size="2x" icon={faAngleLeft} />
                 <FontAwesomeIcon
                     onClick={playSongHandler}
-                    // onClick={() => setRotateImg(!rotateImg)}
                     className="play"
                     size="2x"
                     icon={isPlaying ? faPause : faPlay} />

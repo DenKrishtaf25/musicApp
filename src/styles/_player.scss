@@ -16,6 +16,8 @@
         }
         p {
             padding: 1rem;
+            font-weight: 600;
+            color: rgb(65, 65, 65);
         }
     }
     &__control {
@@ -24,9 +26,7 @@
         align-items: center;
         padding: 1rem;
         width: 30%;
-        .play {
-            color: lightseagreen;
-        }
+        color: #1b1b1b;
         svg {
             cursor: pointer;
         }
@@ -40,7 +40,6 @@ input[type="range"]::-webkit-slider-thumb {
     -webkit-appearance: none;
     height: 16px;
     width: 16px;
-    // background: black;
 }
 .track {
     width: 100%;
