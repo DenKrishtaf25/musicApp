@@ -70,10 +70,10 @@ function chillHop() {
         }
         ,
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://dl2.mp3party.net/online/5863155.mp3",
-            cover: "https://chillhop.com/wp-content/uploads/2020/07/d019a313218305f3629dcfe384a0de95da01267a-1024x1024.jpg",
+            name: "Yalavita",
+            artist: "Gorillaz",
+            audio: "https://mezzoforte.ru/s/gorillaz/clint_eastwood.mp3",
+            cover: "https://sun9-64.userapi.com/impf/HJ89Lph5ySILA4XM46r84R1AkE0H6OKn-lIoOg/WBn_TB-1kXI.jpg?size=1280x1280&quality=96&proxy=1&sign=4a31cd396464cad13237df8439be8671&type=album",
             color: ["#205950", "#2ab3bf"],
             id: uuidv4(),
             active: false

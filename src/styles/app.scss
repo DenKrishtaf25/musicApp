@@ -2,6 +2,7 @@
 @import "./song";
 @import "./library";
 @import "./nav";
+@import "./fonts";
 
 * {
     margin: 0;
@@ -21,7 +22,11 @@ p {
 }
 .App{
     transition: all .5s ease;
+    position: relative;
 }
 .library-active{
     margin-left: 20rem;
+    @media screen and (max-width: 575px) {
+        margin-left: 0;
+    }
 }
