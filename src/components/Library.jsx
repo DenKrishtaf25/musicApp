@@ -7,11 +7,15 @@ const Library = ({
     audioRef,
     isPlaying,
     setSongs,
-    libraryStatus
+    libraryStatus, themStatus, setThemStatus
 }) => {
     return (
         <div className={`library ${libraryStatus ? 'active-library' : ''}`}>
-            <h2>Tracks</h2>
+            <div className="check-wrapper">
+                <div className="main">
+                    <input className="l" type="checkbox" onClick={() => setThemStatus(!themStatus)} />
+                </div>
+            </div>
             <div className="library__songs">
                 {songs.map(song =>
                     <LibrarySong

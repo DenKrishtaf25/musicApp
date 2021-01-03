@@ -21,11 +21,67 @@ p {
     color: #1b1b1b;
     font-family: sans-serif;
 }
-.App{
-    transition: all .5s ease;
+.App {
+    transition: all 0.5s ease;
     position: relative;
+    &__wrapper-night {
+        height: 100vh;
+        background-color: #0e1621;
+        nav {
+            h1 {
+                color: #fff;
+            }
+            button {
+                color: #4182b8;
+                border: 2px solid #4182b8;
+            }
+            button:hover {
+                background-color: #fff;
+                color: #4182b8;
+                border: 2px solid #ffffff;
+            }
+        }
+        .song-container {
+            h1 {
+                color: #fff;
+            }
+            h3 {
+                color: #fff;
+            }
+        }
+        .library {
+            background-color: #17212b;
+            box-shadow: none;
+            h2 {
+                color: #4182b8;
+            }
+            &__song {
+                h3 {
+                    color: #fff;
+                }
+                h4 {
+                    color: #6c7883;
+                }
+            }
+        }
+        .player {
+            &__track {
+                p {
+                    color: #6c7883;
+                }
+            }
+            &__control {
+                svg {
+                    color: #4182b8;
+                }
+            }
+            .animate-track {
+                background: #242f3d;
+            }
+        }
+    }
 }
-.library-active{
+.library-active {
     margin-left: 20rem;
     @media screen and (max-width: 575px) {
         margin-left: 0;

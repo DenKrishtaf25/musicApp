@@ -1,9 +1,9 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faMusic} from '@fortawesome/free-solid-svg-icons';
+import { faMusic } from '@fortawesome/free-solid-svg-icons';
 
-const Nav = ({ libraryStatus, setLibraryStatus}) => {
-    return(
+const Nav = ({ libraryStatus, setLibraryStatus }) => {
+    return (
         <nav>
             <h1>DenisKA</h1>
             <button onClick={() => setLibraryStatus(!libraryStatus)}>

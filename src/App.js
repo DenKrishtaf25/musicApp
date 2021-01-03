@@ -25,6 +25,7 @@ function App() {
     animationPercentage: 0,
   });
   const [libraryStatus, setLibraryStatus] = useState(false);
+  const [themStatus, setThemStatus] = useState(false);
   const [rotateImg, setRotateImg] = useState(false);
   const timeUpdateHandler = (e) => {
     const current = e.target.currentTime;
@@ -35,51 +36,74 @@ function App() {
     const animation = Math.round((roundedCurrent / roundedDuration) * 100);
     setSongInfo({ ...songInfo, currentTime: current, duration, animationPercentage: animation });
   };
+  const activeLibraryHandler = (nextPrev) => {
+
+    const newSongs = songs.map((song) => {
+      if (song.id === nextPrev.id) {
+        return {
+          ...song,
+          active: true,
+        };
+      } else {
+        return {
+          ...song,
+          active: false,
+        };
+      }
+    });
+    setSongs(newSongs);
+
+  }
   const songEndHandler = async () => {
     let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
     await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
+    activeLibraryHandler(songs[(currentIndex + 1) % songs.length]);
     if (isPlaying) audioRef.current.play();
   }
 
   return (
     <div className={`App ${libraryStatus ? 'library-active' : ""}`}>
-      <Nav
-        libraryStatus={libraryStatus}
-        setLibraryStatus={setLibraryStatus}
-      />
-      <Song
-        currentSong={currentSong}
-        rotateImg={rotateImg}
-      />
-      <Player
-        audioRef={audioRef}
-        isPlaying={isPlaying}
-        setIsPlaying={setIsPlaying}
-        currentSong={currentSong}
-        setSongInfo={setSongInfo}
-        songInfo={songInfo}
-        songs={songs}
-        setCurrentSong={setCurrentSong}
-        setSongs={setSongs}
-        setRotateImg={setRotateImg}
-        rotateImg={rotateImg}
-      />
-      <Library
-        audioRef={audioRef}
-        songs={songs}
-        setCurrentSong={setCurrentSong}
-        isPlaying={isPlaying}
-        setSongs={setSongs}
-        libraryStatus={libraryStatus}
-      />
-      <audio
-        ref={audioRef}
-        src={currentSong.audio}
-        onTimeUpdate={timeUpdateHandler}
-        onLoadedMetadata={timeUpdateHandler}
-        onEnded={songEndHandler}
-      >
-      </audio>
+      <div className={`App__wrapper ${themStatus ? 'App__wrapper-night' : ""}`}>
+        <Nav
+          libraryStatus={libraryStatus}
+          setLibraryStatus={setLibraryStatus}
+        />
+        <Song
+          currentSong={currentSong}
+          rotateImg={rotateImg}
+        />
+        <Player
+          audioRef={audioRef}
+          isPlaying={isPlaying}
+          setIsPlaying={setIsPlaying}
+          currentSong={currentSong}
+          setSongInfo={setSongInfo}
+          songInfo={songInfo}
+          songs={songs}
+          setCurrentSong={setCurrentSong}
+          setSongs={setSongs}
+          setRotateImg={setRotateImg}
+          rotateImg={rotateImg}
+        />
+        <Library
+          audioRef={audioRef}
+          songs={songs}
+          setCurrentSong={setCurrentSong}
+          isPlaying={isPlaying}
+          setSongs={setSongs}
+          libraryStatus={libraryStatus}
+          themStatus={themStatus}
+          setThemStatus={setThemStatus}
+        />
+        <audio
+          ref={audioRef}
+          src={currentSong.audio}
+          onTimeUpdate={timeUpdateHandler}
+          onLoadedMetadata={timeUpdateHandler}
+          onEnded={songEndHandler}
+        >
+        </audio>
+      </div>
     </div>
   );
 }

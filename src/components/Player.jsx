@@ -22,6 +22,7 @@ const Player = ({
 }) => {
 
     const activeLibraryHandler = (nextPrev) => {
+       
         const newSongs = songs.map((song) => {
             if (song.id === nextPrev.id) {
                 return {
@@ -36,7 +37,7 @@ const Player = ({
             }
         });
         setSongs(newSongs);
-        console.log('hey hey');
+      
     }
 
 
@@ -66,7 +67,7 @@ const Player = ({
         let currentIndex = songs.findIndex((song) => song.id === currentSong.id);
         if (direction === "skip-forward") {
             await setCurrentSong(songs[(currentIndex + 1) % songs.length]);
-            activeLibraryHandler(songs[(currentIndex + 1) % songs.length])
+            activeLibraryHandler(songs[(currentIndex + 1) % songs.length]);
         }
         if (direction === "skip-back") {
             if ((currentIndex - 1) % songs.length === -1) {  /* Если индекс становится -1 ,то  */
