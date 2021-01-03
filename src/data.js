@@ -7,7 +7,7 @@ function chillHop() {
             artist: "Andy Panda (Endspiel)",
             audio: "https://mp3flys.ru/uploads/files/mp3/04-2020/1586882691_Endshpil_-_Moy_Babylon.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/8404541e3b694d16fd79433b142ed910f36764dd-1024x1024.jpg",
-            color: ["#205950", "#2ab3bf"],
+            color: ["#FFB1A7", "#2ab3bf"],
             id: uuidv4(),
             active: true
         },
@@ -54,7 +54,7 @@ function chillHop() {
             artist: "Miyagi, Andy Panda",
             audio: "https://mp3flys.ru/uploads/files/mp3/07-2020/1594934606_Miyagi_Andy_Panda_-_Atlant.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/50758f405d2aba9cd6e8c4e6cfce44e4d9893714-1024x1024.jpg",
-            color: ["#205950", "#2ab3bf"],
+            color: ["#F34B5C", "#2C2C67"],
             id: uuidv4(),
             active: false
         }
@@ -64,47 +64,47 @@ function chillHop() {
             artist: "Miyagi_Andy_Panda_TumaniYO",
             audio: "https://mp3flys.ru/uploads/files/mp3/05-2020/1588280673_Miyagi_Andy_Panda_TumaniYO_-_Brooklyn.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/9630fcab71c6dc1e9ad8140a03dcab54b8b98098-1024x1024.jpg",
-            color: ["#205950", "#2ab3bf"],
+            color: ["#AC4975", "#A691CC"],
             id: uuidv4(),
             active: false
         }
         ,
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=10075",
+            name: "Endorphin",
+            artist: "Andy Panda, Miyagi",
+            audio: "https://mp3flys.ru/uploads/files/mp3/11-2019/1573679066_Andy_Panda_Miyagi_-_Endorphin.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/bc9a7af2ad67de703541c2c7a91e3df74ab494c0-1024x1024.jpg",
-            color: ["#205950", "#2ab3bf"],
+            color: ["#634351", "#55435B"],
             id: uuidv4(),
             active: false
         }
         ,
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=10255",
+            name: "Tantra",
+            artist: "MiyaGi, Andy Panda",
+            audio: "https://mp3flys.ru/uploads/files/mp3/07-2020/1594952949_MiyaGi_Andy_Panda_-_Tantra.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/58028b4ad62050072228e4c833916e5512772399-1024x1024.jpg",
-            color: ["#205950", "#2ab3bf"],
+            color: ["#625F91", "#C2799C"],
             id: uuidv4(),
             active: false
         }
         ,
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=8036",
+            name: "All The Time",
+            artist: "MiyaGi, Andy Panda",
+            audio: "https://mp3flys.ru/uploads/files/mp3/12-2020/1608842028_MiyaGi_Andy_Panda_-_All_The_Time.mp3",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/b162505d856f1b7326401a00d716f48be4529ed7-1024x1024.jpg",
-            color: ["#205950", "#2ab3bf"],
+            color: ["#F5D4B0", "#C46F6C"],
             id: uuidv4(),
             active: false
         }
         ,
         {
-            name: "Мой Babylon",
-            artist: "Эндшпиль",
-            audio: "https://mp3.chillhop.com/serve.php/?mp3=9921",
+            name: "Malinovi rasvet",
+            artist: "MiyaGi ft. Andy Panda",
+            audio: "https://ru.sefon.pro/api/mp3_download/direct/108200/3vUCAPxRjvvWMftWJ2DeTJvkBG8ogu4Ws65NAQ_O7hi9gGohDuSGBscKKn1mOr2JvwHcT5xnM8Vuu5Cj2JJHY5CWU45y16bkCAP6M2y49i-jLdxsmI4dHCv-RH5_3COriCGDodoqvul8D9AxMb4-lgvE3hypDd61jFnXazN1/",
             cover: "https://chillhop.com/wp-content/uploads/2020/07/b2e2c1fca3e00a74402969e0a9e98d4849f38aef-1024x1024.jpg",
-            color: ["#205950", "#2ab3bf"],
+            color: ["#E8BB9C", "#57634C"],
             id: uuidv4(),
             active: false
         }
@@ -114,7 +114,7 @@ function chillHop() {
             artist: "Gorillaz",
             audio: "https://mezzoforte.ru/s/gorillaz/clint_eastwood.mp3",
             cover: "https://sun9-64.userapi.com/impf/HJ89Lph5ySILA4XM46r84R1AkE0H6OKn-lIoOg/WBn_TB-1kXI.jpg?size=1280x1280&quality=96&proxy=1&sign=4a31cd396464cad13237df8439be8671&type=album",
-            color: ["#205950", "#2ab3bf"],
+            color: ["#AFC2C8", "#E4E0C3"],
             id: uuidv4(),
             active: false
         }
